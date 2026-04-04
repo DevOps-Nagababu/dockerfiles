@@ -1,5 +1,5 @@
 FROM redhat/ubi9
 RUN dnf install nginx -y
 LABEL course = "Docker" \
-      trainer = "Nagababu"  
+      TRAINER = "Nagababu"  
 CMD ["nginx","-g","daemon off;"]
